@@ -1,5 +1,6 @@
 from django.shortcuts import render
 import plotly.express as px
+import pandas
 from core.models import CO2
 from core.forms import DateForm
 # Create your views here.
